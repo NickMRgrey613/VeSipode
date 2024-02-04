@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+
+img {
+  max-width: 100%;
+}
+
+.one {
+  width: 100%;
+  height: 5px;
+  background: #493776;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background: #09070e;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: #493776 solid 4px;
+}
+
+.topo {
+  text-align: right;
+}
+
+.topo ul li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.topo ul li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-transform: uppercase;
+  line-height: 15px;
+  transition: 0.5s;
+}
+
+.topo ul li a:hover {
+  color: #ff66cc;
+}
+/**BANNER**/
+
+.banner {
+  width: 100%;
+  height: 650px;
+  background: url(../img/background1.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner h2 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-transform: uppercase;
+  margin-top: 175px;
+  text-align: center;
+  text-shadow: black 5px 5px 10px;
+}
+.banner a {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 18px;
+  width: 30px;
+  color: whitesmoke;
+  background: #493776;
+  border-radius: 16px;
+  box-shadow: black 2px 2px 10px;
+  transition: 0.7s;
+}
+
+.banner a:hover {
+  background: #ff66cc;
+  color: #09070e;
+  transition: all 0.3s;
+  box-shadow: black 2px 2px 10px;
+}
+/**FIM BANNER**/
+
+/**VENDAS 1**/
+.venda1 {
+  background-color: aliceblue;
+  z-index: -2;
+  width: 1280px;
+  height: 750px;
+  margin-top: -180px;
+}
+
+.venda1 h1 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 40px;
+  color: #09070e;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 85px;
+}
+
+.venda1 p{
+  font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+  font-size: 20px;
+  color: #09070e;
+  text-align: center;
+}
+.pods {
+  margin-top: 60px;
+  margin-left: 95px;
+}
+
+.container1 p {
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  color: #09070e;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 29px;
+  text-align: center;
+}
+
+.pods li {
+  font-family: "Lucida Sans";
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #09070e;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.venda1 img {
+  margin-top: 3px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 73px;
+  margin-right: 50px;
+}
+
+.pods img {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transforme 0.5s ease-in-out;
+  box-shadow: black 10px 10px 10px;
+}
+
+.pods img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 50%;
+  border: #09070e solid 5px;
+  box-shadow: black 10px 5px 10px;
+  padding: -10px;
+}
+
+.pods h3 {
+  margin-left: 100px;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-shadow: #09070e solid 10px;
+}
+
+.pods p {
+  margin-left: 100px;
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.pods h4 {
+  margin-left: 100px;
+  margin-top: -25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #09070e;
+  text-transform: uppercase;
+}
+
+h4 .fazer-pedido {
+  color: #09070e;
+  background-color: #d9aac9;
+  border: 5px solid #d9aac9;
+  border-radius: 15px;
+  box-shadow: black 5px 5px 10px;
+}
+
+h4 .valor {
+
+  color: #00ff08;
+  background-color: black;
+  border: 5px solid black;
+  font-family: "Protest Strike", sans-serif;
+  transition: 0.5s;
+  animation: 0.5s;
+}
+
+h4 .fazer-pedido:hover {
+  color: black;
+  font-size: 20px;
+  border: cadetblue solid 5px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  box-shadow: black 7px 7px 10px;
+}
+
+li p {
+  box-shadow: whitesmoke 10px 10px 10px;
+  border-radius: 16px;
+}
+
+li h4{
+  margin-bottom: 22px;
+}
+
+.venda2 {
+  background-color: aliceblue;
+  z-index: -2;
+  width: 1280px;
+  height: 750px;
+  margin-top: -180px;
+}
+/**Vendas 2**/
+.venda2 h1 {
+  font-family: "Protest Strike", sans-serif;
+  font-size: 40px;
+  color: #09070e;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 85px;
+}
+
+.venda2 p{
+  font-family: 'franklin gothic medium', 'arial narrow', arial, sans-serif;
+  font-size: 20px;
+  color: #09070e;
+  text-align: center;
+}
+
+.pods2 {
+  margin-top: 60px;
+  margin-left: 95px;
+}
+
+.container2 p {
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  color: #09070e;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 29px;
+  text-align: center;
+}
+
+.pods2 li {
+  font-family: "Lucida Sans";
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #09070e;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.venda2 img {
+  margin-top: 3px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 73px;
+  margin-right: 50px;
+}
+
+.pods2 img {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: transforme 0.5s ease-in-out;
+  box-shadow: black 10px 10px 10px;
+}
+
+.pods2 img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 50%;
+  border: #09070e solid 5px;
+  box-shadow: black 10px 5px 10px;
+  padding: -10px;
+}
+
+.pods2 h3 {
+  margin-left: 100px;
+  font-family: "Protest Strike", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-shadow: #09070e solid 10px;
+}
+
+.pods2 p {
+  margin-left: 100px;
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.pods2 h4 {
+  margin-left: 100px;
+  margin-top: -25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #09070e;
+  text-transform: uppercase;
+}
+
+h4 .fazer-pedido2 {
+  color: #09070e;
+  background-color: #d9aac9;
+  border: 5px solid #d9aac9;
+  border-radius: 15px;
+  box-shadow: black 5px 5px 10px;
+}
+
+h4 .valor2 {
+
+  color: #00ff08;
+  background-color: black;
+  border: 5px solid black;
+  font-family: "Protest Strike", sans-serif;
+  transition: 0.5s;
+  animation: 0.5s;
+}
+
+h4 .fazer-pedido2:hover {
+  color: black;
+  font-size: 20px;
+  border: cadetblue solid 5px;
+  border-radius: 15px;
+  background-color: cadetblue;
+  box-shadow: black 7px 7px 10px;
+}
+
+li p {
+  box-shadow: whitesmoke 10px 10px 10px;
+  border-radius: 16px;
+}
+
+li h4{
+  margin-bottom: 22px;
+}
+
+.venda2 {
+  background-color: aliceblue;
+  z-index: -2;
+  width: 1280px;
+  height: 750px;
+  margin-top: -180px;
+}
+
+/**Fim Produtos**/
+
+/**Carrosel Inicio**/
+.slide{
+  margin-top: 20px;
+}
+
+.slide h3{
+  margin-top: 75px;
+  font-family: 'Protest Strike', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #09070e;
+  text-transform: uppercase;
+}
+
+.slide p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.items{
+  display: flex;
+  overflow-x: auto;
+}
+
+.items img{
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+/**Carrosel Fim**/
+
+footer{
+  width: 100%;
+  height: 65px;
+  background: #09070e;
+}
+
+footer p{
+  font-family: lato;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  line-height: 25px;
+}
+
+::-webkit-scrollbar
+::-webkit-scrollbar-thumb
+
+::-webkit-scrollbar-track{
+  background-color: #ff66cc ;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: #493776;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff66cc;
+}
